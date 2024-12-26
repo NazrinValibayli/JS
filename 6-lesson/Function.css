@@ -1,0 +1,42 @@
+/*
+function selamVer() {
+  console.log("Merhaba, dünya!");
+}
+
+// Fonksiyonu çağırma
+selamVer(); 
+function toplama(sayi1, sayi2) {
+  return sayi1 + sayi2;
+}
+
+
+
+selamla("Ali"); 
+selamla();      
+const carpma = function (a, b) {
+  return a * b;
+};
+
+console.log(carpma(4, 5)); 
+const bolme = (a, b) => a / b;
+}
+
+
+function sayilariTopla(...sayilar) {
+  return sayilar.reduce((toplam, sayi) => toplam + sayi, 0);
+}
+
+const bolme = (a, b) => a / b;
+
+console.log(bolme(10, 2)); 
+
+
+function kareAl(x) {
+  return x * x;
+}
+
+function ikiKareToplam(a, b) {
+  return kareAl(a) + kareAl(b);
+}
+
+console.log(ikiKareToplam(3, 4)); // Çıktı: 25
