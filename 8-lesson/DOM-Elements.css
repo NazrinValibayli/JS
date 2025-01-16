@@ -1,0 +1,77 @@
+/*styling elements
+var el = document.querySelectorAll(".el")
+for(let i = 0; i < el.length; i++){
+el.style.color = "red"
+el.style.fontSize = "34px"
+el.style.fontWeight = "bold"
+}
+
+// let ul = document.querySelector("ul")
+// // console.log(ul.parentNode)
+// // console.log(ul.parentNode.children)
+// console.log(ul.nextElementSibling)
+// console.log(ul.previousElementSibling)
+
+// console.log(ul.nextSibling)
+// console.log(ul.previousSibling)
+
+//var h3 = document.querySelector(".basliq")
+
+//Modify TEXT
+h3.textContent = "Heloo World"
+
+console.log(h3.textContent)
+console.log(h3.innerText)
+console.log(h3.innerHTML)
+
+//Creating Elements
+
+for(let i =1; i<=3; i++){
+var newLi = document.createElement("li")
+newLi.textContent = "Item"
+}
+
+
+for(let i =1; i<=3; i++){
+var ul = document.createElement("ul")
+ul.appendChild(newLi)
+}
+console.log(ul)
+
+var div = document.createElement("div")
+var icon = document.createElement("i")
+var span = document.createElement("span")
+
+span.innerText = "Yazi"
+
+div.append(icon,span)
+
+div.removeChild(icon)
+
+console.log(div)
+
+//Modify TEXT
+
+const element = document.getElementById("example")
+
+console.log("TextContent" + element.textContent)
+console.log("InnerText" + element.InnerText)
+console.log("InnerHTML" + element.InnerHTML)
+
+const element = document.getElementById("example")
+
+element.innerHTML = "<a>hello world"
+
+console.log(element)
+
+// const btn = document.querySelector(".btn")
+// btn.addEventListener("click", function () {
+// btn.classList.toggle("active")
+// console.log(btn)
+// })
+
+// className
+const element = document.querySelector(".btn")
+console.log(element)
+element.className += "active"
+console.log(element)
